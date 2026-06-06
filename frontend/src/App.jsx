@@ -110,7 +110,7 @@ export default function App() {
       await fetchStats();
     } catch {
       setResult({
-        error: "Backend connection failed. Make sure FastAPI is running on http://127.0.0.1:8000",
+        error: "Backend connection failed. Please check the deployed backend connection.",
       });
     }
 
